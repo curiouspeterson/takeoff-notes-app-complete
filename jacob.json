@@ -1,0 +1,21 @@
+{
+  "language": "TypeScript",
+  "installCommand": "npm",
+  "formatCommand": "",
+  "buildCommand": "npm run build",
+  "style": "Tailwind",
+  "iconSet": "Lucide",
+  "directories": {
+    "components": "/components",
+    "pages": "/app",
+    "types": "/types",
+    "styles": "/src/styles",
+    "tailwindConfig": "/tailwind.config.js",
+    "staticAssets": "/public/assets"
+  },
+  "env": "DATABASE_URL=postgresql://postgres.ujjsqjueuirjxzoxyjuk:rph2yUH2im4KD0NG@aws-0-us-west-1.pooler.supabase.com:6543/postgres",
+	"env": "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_bGl0ZXJhdGUtdGFycG9uLTI0LmNsZXJrLmFjY291bnRzLmRldiQ",
+	"env": "CLERK_SECRET_KEY=sk_test_cMxFQdZtO3GGum3XffFO96Sc3umAXPi41jamFJC4Ge",
+	"env": "NEXT_PUBLIC_CLERK_SIGN_IN_URL=/login",
+	"env": "NEXT_PUBLIC_CLERK_SIGN_IN_URL=/signup"
+}
